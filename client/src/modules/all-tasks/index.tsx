@@ -42,7 +42,7 @@ const AllTasksPage = () => {
               <div className="wrap-content-list">
                 <div className="content-list list-direction-row">
                     {
-                    taskAllList.length && taskAllList.map((data, index) => (
+                    taskAllList.length ? taskAllList.map((data, index) => (
                         <div 
                         key={index} 
                         className="task-item"
@@ -73,7 +73,7 @@ const AllTasksPage = () => {
                                 <p style={{fontSize:12}}>{ dateFormated(data?.taskDate) }</p>
                             </div>
                         </div>
-                    ))
+                    )) : null
                     }
                     <div 
                         className="task-item"

@@ -28,7 +28,7 @@ const IndexPage = () => {
               <div className="wrap-content-list">
                 <div className="content-list list-direction-row">
                   {
-                    taskTodayList.length && taskTodayList.map((data, index) => (
+                    taskTodayList.length ? taskTodayList.map((data, index) => (
                       <div 
                         key={index} 
                         className="task-item"
@@ -58,7 +58,7 @@ const IndexPage = () => {
                               <p style={{fontSize:12}}>{ dateFormated(data?.taskDate) }</p>
                           </div>
                       </div>
-                    ))
+                    )) : null
                   }
                 </div>
               </div>
