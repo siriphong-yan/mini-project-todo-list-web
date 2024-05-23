@@ -7,6 +7,8 @@ Welcome to todo list web project This project develop from nodejs express and re
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [ชื่อ - นามสกุล](#ชื่อ - นามสกุล)
+- [หน่วยงาน](#หน่วยงาน)
 
 ## Installation
 
@@ -36,7 +38,15 @@ To use this project, follow these steps:
     password : 12345678
 
 ## Features
+
   - You can create simple tasks.
   - You can set background color and date for your tasks.
   - You can view today tasks.
-    
+
+## ชื่อ - นามสกุล
+
+   ศิริพงศ์ เงางาม
+
+## หน่วยงาน
+
+   Gosoft
